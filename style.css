@@ -1,0 +1,22 @@
+body {margin:0px;
+      font-size: 22px;
+      font-family:helvetica;}
+
+header {background-color: black;
+        height: 69px;
+        display: flex;
+        align-items:center;
+        border-bottom:1px solid seashell;
+        position: fixed;
+        width:100%
+}
+
+#logo {height:50px;
+      padding-left: 10px;}
+
+.links {color:seashell;
+        padding:13px;}
+
+#links {text-align: right;
+        display: block;
+        width:100%;}
