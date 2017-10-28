@@ -1,6 +1,9 @@
 body {margin:0px;
       font-size: 22px;
-      font-family:helvetica;}
+      font-family:helvetica;
+      background-color: black;
+      display:flex;
+      justify-content: center;}
 
 header {background-color: black;
         height: 69px;
@@ -20,3 +23,22 @@ header {background-color: black;
 #links {text-align: right;
         display: block;
         width:100%;}
+
+#mission {
+          display:inline-flex;
+          height:700px;
+          background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+          justify-content: center;
+          }
+
+#ourmission {
+  background-color:black;
+  width:1200px;
+  color:white;
+  display:block;
+  align-self: center;
+  text-align: center;
+
+
+
+}
