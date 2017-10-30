@@ -24,13 +24,17 @@ header {background-color: black;
         display: block;
         width:100%;}
 
+#parent {display:flex;
+        flex-direction:column;
+        border:1px solid white;
+        align-items: center;}
+
 #mission {
           display:inline-flex;
           height:700px;
           background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
           justify-content: center;
-          }
-
+}
 #ourmission {
   background-color:black;
   width:1200px;
@@ -38,7 +42,19 @@ header {background-color: black;
   display:block;
   align-self: center;
   text-align: center;
+}
 
+#teas {
+      width:1000px;
+      border:1px solid white;
+      height: 700px;
+      color: white;
+      text-align: center;
+      padding-top:20px;}
 
-
+#images img {height:200px;
+    width:300px;}
+  span {display:inline-flex;
+        flex-direction: column;
+        padding-right:18px;
 }
