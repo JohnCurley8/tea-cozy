@@ -54,7 +54,26 @@ header {background-color: black;
 
 #images img {height:200px;
     width:300px;}
-  span {display:inline-flex;
+
+#images  span {display:inline-flex;
         flex-direction: column;
         padding-right:18px;
 }
+
+#locations {height: 500px;
+            background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+            border:1px solid yellow;
+            width:900px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+#locations span {display:inline-flex;
+                color:white;
+                background-color:black;
+                width:500px;
+                height: 200px;
+                flex-direction: row;
+                justify-content: center;
+                padding: 0 0 10 10;}
